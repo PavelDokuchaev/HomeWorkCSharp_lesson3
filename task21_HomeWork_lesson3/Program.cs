@@ -7,18 +7,18 @@ A (7,-5, 0); B (1,-1,9) -> 11.53
 
 double distanceAB()
 {
-    Console.WriteLine("Точка 1 координаты Х");
+    Console.WriteLine("Точка 1 координата Х");
     int coordinateAX= Convert.ToInt32(Console.ReadLine());
-    Console.WriteLine("Точка 1 координаты У");
+    Console.WriteLine("Точка 1 координата У");
     int coordinateAY = Convert.ToInt32(Console.ReadLine());
-    Console.WriteLine("Точка 1 координаты Z");
+    Console.WriteLine("Точка 1 координата Z");
     int coordinateAZ = Convert.ToInt32(Console.ReadLine());
 
-    Console.WriteLine("Точка 2 координаты Х");
+    Console.WriteLine("Точка 2 координата Х");
     int coordinateBX= Convert.ToInt32(Console.ReadLine());
-    Console.WriteLine("Точка 2 координаты У");
+    Console.WriteLine("Точка 2 координата У");
     int coordinateBY = Convert.ToInt32(Console.ReadLine());
-    Console.WriteLine("Точка 2 координаты Z");
+    Console.WriteLine("Точка 2 координата Z");
     int coordinateBZ = Convert.ToInt32(Console.ReadLine());
 
     double result = Math.Sqrt(Math.Pow(coordinateAX - coordinateBX, 2) + 
